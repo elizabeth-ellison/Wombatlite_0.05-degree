@@ -1,0 +1,933 @@
+Loading access-om3/2025.08.001-tracers-from-file
+  Loading requirement: access3/tracers-from-file-ycbexjc
+Currently Loaded Modulefiles:
+ 1) access3/tracers-from-file-ycbexjc           5) openmpi/4.1.7-ushgfj4  
+ 2) access-om3/2025.08.001-tracers-from-file    6) pbs                    
+ 3) nco/5.0.5                                  
+ 4) model-tools/mppnccombine-fast/2025.07.000  
+payu: error: Thread 4 crashed with error code 255.
+ Error message:
+
+Copying non-collated variables
+
+Copying contiguous variables
+
+Copying chunked variables
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0018
+[rank 002] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0019
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0019
+[rank 001] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0023
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0043
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0048
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0048
+[rank 001] Unaligned or compression change (slow) copy of MLD_003 from access-om3.mom6.h.shelf.hourly.mld_2012_05.nc.0048
+[rank 000] ERROR in HDF5 /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/spack-src/async.c:490
+
+HDF5-DIAG: Error detected in HDF5 (1.14.2) MPI-process 0:
+  #000: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5D.c line 403 in H5Dopen2(): unable to synchronously open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5D.c line 364 in H5D__open_api_common(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #002: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLcallback.c line 1980 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLcallback.c line 1947 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #004: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLnative_dataset.c line 321 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #005: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Dint.c line 1418 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #006: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gloc.c line 421 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #007: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gtraverse.c line 816 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #008: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gtraverse.c line 596 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #009: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gloc.c line 381 in H5G__loc_find_cb(): object 'xh_sub01' doesn't exist
+    major: Symbol table
+    minor: Object not found
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a841]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a522]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x405dff]
+/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5)[0x14eaacfde7e5]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x404c0e]
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+  Proc: [[48898,1],0]
+  Errorcode: -1
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ [gadi-cpu-spr-0079:1590813] [0] func:/apps/openmpi/5.0.5/lib/libopen-pal.so.80(opal_backtrace_buffer+0x20) [0x14eaa9624ce0]
+[gadi-cpu-spr-0079:1590813] [1] func:/apps/openmpi/5.0.5/lib/libmpi.so.40(ompi_mpi_abort+0x122) [0x14eaad81d442]
+[gadi-cpu-spr-0079:1590813] [2] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a85d]
+[gadi-cpu-spr-0079:1590813] [3] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a522]
+[gadi-cpu-spr-0079:1590813] [4] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x405dff]
+[gadi-cpu-spr-0079:1590813] [5] func:/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5) [0x14eaacfde7e5]
+[gadi-cpu-spr-0079:1590813] [6] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x404c0e]
+--------------------------------------------------------------------------
+prterun has exited due to process rank 0 with PID 0 on node gadi-cpu-spr-0079 calling
+"abort". This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+--------------------------------------------------------------------------
+
+payu: error: Thread 5 crashed with error code 255.
+ Error message:
+
+Copying non-collated variables
+
+Copying contiguous variables
+
+Copying chunked variables
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0018
+[rank 002] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0019
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0037
+[rank 001] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0043
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0043
+[rank 001] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0048
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0048
+[rank 002] Unaligned or compression change (slow) copy of dye003 from access-om3.mom6.h.hourlydyes3_2012_05.nc.0048
+[rank 000] ERROR in HDF5 /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/spack-src/async.c:490
+
+HDF5-DIAG: Error detected in HDF5 (1.14.2) MPI-process 0:
+  #000: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5D.c line 403 in H5Dopen2(): unable to synchronously open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5D.c line 364 in H5D__open_api_common(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #002: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLcallback.c line 1980 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLcallback.c line 1947 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #004: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLnative_dataset.c line 321 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #005: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Dint.c line 1418 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #006: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gloc.c line 421 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #007: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gtraverse.c line 816 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #008: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gtraverse.c line 596 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #009: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gloc.c line 381 in H5G__loc_find_cb(): object 'xh_sub01' doesn't exist
+    major: Symbol table
+    minor: Object not found
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a841]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a522]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x405dff]
+/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5)[0x14e398f067e5]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x404c0e]
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+  Proc: [[1656,1],0]
+  Errorcode: -1
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ [gadi-cpu-spr-0079:1590908] [0] func:/apps/openmpi/5.0.5/lib/libopen-pal.so.80(opal_backtrace_buffer+0x20) [0x14e39554cce0]
+[gadi-cpu-spr-0079:1590908] [1] func:/apps/openmpi/5.0.5/lib/libmpi.so.40(ompi_mpi_abort+0x122) [0x14e399745442]
+[gadi-cpu-spr-0079:1590908] [2] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a85d]
+[gadi-cpu-spr-0079:1590908] [3] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a522]
+[gadi-cpu-spr-0079:1590908] [4] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x405dff]
+[gadi-cpu-spr-0079:1590908] [5] func:/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5) [0x14e398f067e5]
+[gadi-cpu-spr-0079:1590908] [6] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x404c0e]
+--------------------------------------------------------------------------
+prterun has exited due to process rank 0 with PID 0 on node gadi-cpu-spr-0079 calling
+"abort". This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+--------------------------------------------------------------------------
+
+payu: error: Thread 6 crashed with error code 255.
+ Error message:
+
+Copying non-collated variables
+
+Copying contiguous variables
+
+Copying chunked variables
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 002] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 001] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 002] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 002] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 002] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 003] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 001] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 002] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 003] Unaligned or compression change (slow) copy of dic_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 002] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 001] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of phy_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of fe_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 001] Unaligned or compression change (slow) copy of npp1 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of npp2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of no3_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 001] Unaligned or compression change (slow) copy of dic_stf from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of pco2 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of sedomega_cal from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of det_sed_depst from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross_2d from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of npp_int100 from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 001] Unaligned or compression change (slow) copy of dic_kw from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of dic_stf_gas from access-om3.mom6.2d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 000] ERROR in HDF5 /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/spack-src/async.c:490
+
+HDF5-DIAG: Error detected in HDF5 (1.14.2) MPI-process 0:
+  #000: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5D.c line 403 in H5Dopen2(): unable to synchronously open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5D.c line 364 in H5D__open_api_common(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #002: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLcallback.c line 1980 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLcallback.c line 1947 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #004: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLnative_dataset.c line 321 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #005: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Dint.c line 1418 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #006: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gloc.c line 421 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #007: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gtraverse.c line 816 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #008: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gtraverse.c line 596 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #009: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gloc.c line 381 in H5G__loc_find_cb(): object 'xh_sub01' doesn't exist
+    major: Symbol table
+    minor: Object not found
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a841]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a522]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x405dff]
+/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5)[0x1458ae9a77e5]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x404c0e]
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+  Proc: [[16768,1],0]
+  Errorcode: -1
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ [gadi-cpu-spr-0079:1591014] [0] func:/apps/openmpi/5.0.5/lib/libopen-pal.so.80(opal_backtrace_buffer+0x20) [0x1458aafedce0]
+[gadi-cpu-spr-0079:1591014] [1] func:/apps/openmpi/5.0.5/lib/libmpi.so.40(ompi_mpi_abort+0x122) [0x1458af1e6442]
+[gadi-cpu-spr-0079:1591014] [2] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a85d]
+[gadi-cpu-spr-0079:1591014] [3] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a522]
+[gadi-cpu-spr-0079:1591014] [4] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x405dff]
+[gadi-cpu-spr-0079:1591014] [5] func:/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5) [0x1458ae9a77e5]
+[gadi-cpu-spr-0079:1591014] [6] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x404c0e]
+--------------------------------------------------------------------------
+prterun has exited due to process rank 0 with PID 0 on node gadi-cpu-spr-0079 calling
+"abort". This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+--------------------------------------------------------------------------
+
+payu: error: Thread 7 crashed with error code 207.
+ Error message:
+
+Copying non-collated variables
+
+Copying contiguous variables
+[rank 000] ERROR in NetCDF /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/spack-src/mppnccombine-fast.c:278 -49 NetCDF: Variable not found
+
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a8bf]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x405d60]
+/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5)[0x14bf731cc7e5]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x404c0e]
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+  Proc: [[17763,1],0]
+  Errorcode: -49
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ [gadi-cpu-spr-0079:1591109] [0] func:/apps/openmpi/5.0.5/lib/libopen-pal.so.80(opal_backtrace_buffer+0x20) [0x14bf6f812ce0]
+[gadi-cpu-spr-0079:1591109] [1] func:/apps/openmpi/5.0.5/lib/libmpi.so.40(ompi_mpi_abort+0x122) [0x14bf73a0b442]
+[gadi-cpu-spr-0079:1591109] [2] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a8db]
+[gadi-cpu-spr-0079:1591109] [3] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x405d60]
+[gadi-cpu-spr-0079:1591109] [4] func:/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5) [0x14bf731cc7e5]
+[gadi-cpu-spr-0079:1591109] [5] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x404c0e]
+--------------------------------------------------------------------------
+prterun has exited due to process rank 0 with PID 0 on node gadi-cpu-spr-0079 calling
+"abort". This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+--------------------------------------------------------------------------
+
+payu: error: Thread 8 crashed with error code 255.
+ Error message:
+
+Copying non-collated variables
+
+Copying contiguous variables
+
+Copying chunked variables
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 001] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0015
+[rank 003] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 001] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 002] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0018
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 003] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 003] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 001] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0022
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 002] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0019
+[rank 003] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 003] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0027
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 002] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 001] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0023
+[rank 003] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 003] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 001] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 003] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0032
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 001] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 001] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 001] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 003] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 001] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0037
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 002] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 003] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0028
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 002] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 002] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 003] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0042
+[rank 001] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 001] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 001] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 002] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 002] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 002] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0033
+[rank 001] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 001] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 002] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of alk from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of dicr from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of dicp from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of no3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of phy from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of zoo from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of pchl from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0038
+[rank 003] Unaligned or compression change (slow) copy of fe from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of det from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 002] Unaligned or compression change (slow) copy of xh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 002] Unaligned or compression change (slow) copy of yh_sub02 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 002] Unaligned or compression change (slow) copy of caco3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 003] Unaligned or compression change (slow) copy of pprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of zprod_gross from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of radbio from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of npp3d from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of omega_ara from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 002] Unaligned or compression change (slow) copy of dic from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0048
+[rank 003] Unaligned or compression change (slow) copy of omega_cal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 001] Unaligned or compression change (slow) copy of o2 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0043
+[rank 003] Unaligned or compression change (slow) copy of co3 from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of co2_star from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of htotal from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 003] Unaligned or compression change (slow) copy of caco3_sediment from access-om3.mom6.3d.bgc.shelf.hourly.mean._2012_05.nc.0047
+[rank 000] ERROR in HDF5 /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/spack-src/async.c:490
+
+HDF5-DIAG: Error detected in HDF5 (1.14.2) MPI-process 0:
+  #000: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5D.c line 403 in H5Dopen2(): unable to synchronously open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5D.c line 364 in H5D__open_api_common(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #002: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLcallback.c line 1980 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLcallback.c line 1947 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #004: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5VLnative_dataset.c line 321 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #005: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Dint.c line 1418 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #006: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gloc.c line 421 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #007: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gtraverse.c line 816 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #008: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gtraverse.c line 596 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #009: /scratch/tm70/tm70_ci/tmp/spack-stage/spack-stage-hdf5-1.14.2-oum3uh3ht4on2t6x6wpicwhhvn3kciuj/spack-src/src/H5Gloc.c line 381 in H5G__loc_find_cb(): object 'xh_sub01' doesn't exist
+    major: Symbol table
+    minor: Object not found
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a841]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x40a522]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x405dff]
+/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5)[0x14f92af017e5]
+/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast[0x404c0e]
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+  Proc: [[43664,1],0]
+  Errorcode: -1
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ [gadi-cpu-spr-0079:1591204] [0] func:/apps/openmpi/5.0.5/lib/libopen-pal.so.80(opal_backtrace_buffer+0x20) [0x14f927547ce0]
+[gadi-cpu-spr-0079:1591204] [1] func:/apps/openmpi/5.0.5/lib/libmpi.so.40(ompi_mpi_abort+0x122) [0x14f92b740442]
+[gadi-cpu-spr-0079:1591204] [2] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a85d]
+[gadi-cpu-spr-0079:1591204] [3] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x40a522]
+[gadi-cpu-spr-0079:1591204] [4] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x405dff]
+[gadi-cpu-spr-0079:1591204] [5] func:/half-root/usr/lib64/libc.so.6(__libc_start_main+0xe5) [0x14f92af017e5]
+[gadi-cpu-spr-0079:1591204] [6] func:/g/data/vk83/apps/spack/0.22/release/linux-rocky8-x86_64_v4/intel-2021.10.0/mppnccombine-fast-2025.07.000-6kyw6dwnfpnz3k74v3dkjmzkglpdxvq5/bin/mppnccombine-fast() [0x404c0e]
+--------------------------------------------------------------------------
+prterun has exited due to process rank 0 with PID 0 on node gadi-cpu-spr-0079 calling
+"abort". This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+--------------------------------------------------------------------------
+

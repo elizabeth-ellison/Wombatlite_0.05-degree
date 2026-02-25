@@ -1,0 +1,105 @@
+# PBS configuration
+
+# If submitting to a different project to your default, uncomment line below 
+# and change project code as appropriate; also set shortpath below
+project: x77
+
+# Force payu to always find, and save, files in this scratch project directory
+# (you may need to add the corresponding PBS -l storage flag in sync_data.sh)
+shortpath: /scratch/nm03
+
+queue: normalsr
+ncpus: 208
+jobfs: 1GB
+mem: 512GB
+
+
+walltime: 2:00:00
+jobname: Ningaloo_05deg
+
+model: access-om3
+
+exe: access-om3-MOM6
+input:
+    - /g/data/vk83/configurations/inputs/access-om3/share/meshes/share/2024.09.16/JRA55do-datm-ESMFmesh.nc
+    - /g/data/vk83/configurations/inputs/access-om3/share/meshes/share/2024.09.16/JRA55do-drof-ESMFmesh.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/hgrid.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/vcoord.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/bathymetry_mod.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/init_tracers_modified.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/obgc_obc.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/init_eta.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/init_vel.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/grid_spec.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/ocean_mosaic.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/access-rom3-ESMFmesh.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/access-rom3-nomask-ESMFmesh.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/dust_DS.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/tz_segment_001.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/tz_segment_002.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/tz_segment_003.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/tz_segment_004.nc    
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/tu_segment_001.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/tu_segment_002.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/tu_segment_003.nc
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/tu_segment_004.nc
+    - /g/data/qv56/replicas/input4MIPs/CMIP6Plus/OMIP/MRI/MRI-JRA55-do-1-6-0/
+    - /scratch/nm03/ee8016/regional_mom6_configs/Ningaloo_05_wombatlite/five_dye_input.nc
+    #- /g/data/nm03/ee8016/Ningaloo_05_wombatlite/five_dye_input.nc # this is the input file for passive tracers
+    
+runlog: false
+metadata: 
+    enable: false
+
+platform:
+    nodesize: 104
+    nodemem: 512
+
+# userscripts:
+#     setup: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/setup.sh
+#     archive: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+
+#modules:
+#    use:
+#        - /g/data/vk83/modules
+#    load:
+#        - access-om3/2025.08.001
+#        - nco/5.0.5
+#        - model-tools/mppnccombine-fast
+modules:
+    use:
+        - /g/data/vk83/modules
+        - /g/data/x77/ahg157/modules
+    load:
+        
+        - access-om3/2025.08.001-tracers-from-file #- access-om3/2025.08.001 if you don't need tracers from file
+        - nco/5.0.5
+        - model-tools/mppnccombine-fast
+        #- fre-nctools/2024.05-1
+
+
+#collate:
+    #flags: -n4 -m -r
+    #allow_partial: true
+    #exe: mppnccombine
+    #restart: true
+    #mpi: false
+    #walltime: 0:30:00
+    #mem: 30GB
+    #ncpus: 1
+    #queue: expresssr          
+
+
+collate:
+  restart: true
+  mpi: true
+  walltime: 2:00:00
+  mem: 30GB
+  ncpus: 4
+  queue: normalsr
+  exe: mppnccombine-fast
+
+
+        
+env:
+payu_minimum_version: 1.1.6

@@ -1,0 +1,16 @@
+Loading access-om3/2025.08.001-tracers-from-file
+  Loading requirement: access3/tracers-from-file-ycbexjc
+Traceback (most recent call last):
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/bin/payu-collate", line 10, in <module>
+    sys.exit(runscript())
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/subcommands/collate_cmd.py", line 111, in runscript
+    expt.collate()
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/experiment.py", line 866, in collate
+    model.collate()
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/models/cesm_cmeps.py", line 331, in collate
+    self.get_runconfig(self.output_path)
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/models/cesm_cmeps.py", line 89, in get_runconfig
+    self.runconfig = Runconfig(os.path.join(path, NUOPC_CONFIG))
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/models/cesm_cmeps.py", line 360, in __init__
+    with open(self.file, 'r+') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'archive/output003/shelf/nuopc.runconfig'

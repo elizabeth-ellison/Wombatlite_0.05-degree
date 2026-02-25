@@ -1,0 +1,7 @@
+Loading access-om3/2025.08.001-tracers-from-file
+  Loading requirement: access3/tracers-from-file-ycbexjc
+Currently Loaded Modulefiles:
+ 1) access3/tracers-from-file-ycbexjc           5) pbs                    
+ 2) access-om3/2025.08.001-tracers-from-file    6) openmpi/4.1.7-ushgfj4  
+ 3) nco/5.0.5                                  
+ 4) model-tools/mppnccombine-fast/2025.07.000  

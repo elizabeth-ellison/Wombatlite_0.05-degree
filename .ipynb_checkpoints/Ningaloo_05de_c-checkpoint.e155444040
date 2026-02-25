@@ -1,0 +1,19 @@
+Loading access-om3/2025.08.001-tracers-from-file
+  Loading requirement: access3/tracers-from-file-ycbexjc
+Currently Loaded Modulefiles:
+ 1) access3/tracers-from-file-ycbexjc           5) pbs                    
+ 2) access-om3/2025.08.001-tracers-from-file    6) openmpi/4.1.7-ushgfj4  
+ 3) nco/5.0.5                                  
+ 4) model-tools/mppnccombine-fast/2025.07.000  
+Traceback (most recent call last):
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/bin/payu-collate", line 10, in <module>
+    sys.exit(runscript())
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/subcommands/collate_cmd.py", line 111, in runscript
+    expt.collate()
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/experiment.py", line 866, in collate
+    model.collate()
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/models/cesm_cmeps.py", line 335, in collate
+    fms_collate(self)
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/models/fms.py", line 96, in fms_collate
+    assert mppnc_path, 'No mppnccombine program found'
+AssertionError: No mppnccombine program found

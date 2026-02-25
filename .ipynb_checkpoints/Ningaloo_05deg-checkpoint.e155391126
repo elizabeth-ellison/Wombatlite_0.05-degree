@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/bin/payu-run", line 10, in <module>
+    sys.exit(runscript())
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/subcommands/run_cmd.py", line 133, in runscript
+    expt.setup()
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/experiment.py", line 475, in setup
+    model.setup()
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/models/cesm_cmeps.py", line 130, in setup
+    super().setup()
+  File "/g/data/vk83/apps/base_conda/envs/payu-1.1.6/lib/python3.10/site-packages/payu/models/model.py", line 320, in setup
+    raise FileNotFoundError(
+FileNotFoundError: Executable for access-om3 model not found on path: /scratch/nm03/ee8016/access-om3/bin/access-om3-MOM6
