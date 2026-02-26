@@ -1,0 +1,349 @@
+#this script is setup for using the 0.25 RYF wombatlite MOM6 for boundary and initial conditions - some parts are still a bit messy! 
+
+import xarray as xr
+import os
+import subprocess
+import matplotlib.pyplot as plt
+from pathlib import Path
+from dask.distributed import Client
+import dask
+import numpy as np
+import intake
+import glob
+import pandas as pd
+
+#this is needed until PR on regional mom6for using C grid data goes through on gdata xp65 envs 
+#import sys
+#sys.path.insert(0,"/home/156/ee8016/rmom6/regional-mom6") 
+#for some reason, if I use this version of regional mom6 in the setup bathymetry, I get errors with FRE tools. 
+
+import regional_mom6 as rmom6
+
+if __name__ == '__main__':
+    #Code split into 4 section
+    setup_unprocessed=False
+    setup_bathy=True
+    setup_tides=True
+    setup_regridded=False
+    n_workers = 4         
+    threads_per_worker = 28 
+    memory_limit = "90GB"     
+
+    client = Client(threads_per_worker = threads_per_worker, n_workers=n_workers, memory_limit=memory_limit)
+
+    
+    scratch = subprocess.run("echo /scratch/nm03/$USER", shell=True, capture_output=True, text=True).stdout.strip()
+    gdata = subprocess.run("echo /g/data/nm03/$USER", shell=True, capture_output=True, text=True).stdout.strip()
+    home = subprocess.run("echo ~", shell=True, capture_output=True, text=True).stdout.strip()
+
+    # this will be the name for directories
+    expt_name = "Ningaloo_05_wombatlite" 
+    latitude_extent = [-25, -6]
+    longitude_extent = [109, 125]
+    date_range = ["2012-01-01", "2014-01-01"]        
+
+    ## Place where all the input files go
+    input_dir = f"{scratch}/regional_mom6_configs/{expt_name}/"
+    
+    ## Directory where we'll be running the experiment from
+    run_dir = f"{home}/mom6_rundirs/{expt_name}/"
+    
+    ## Directory where the compiled FRE tools are located (needed to construct mask tables)
+    fre_tools_dir = "/g/data/ik11/mom6_tools/tools"
+    
+    ## Directory where ocean model cut-outs go before processing
+    tmp_dir = f"{gdata}/{expt_name}"
+    
+    ## if directories don't exist, create them
+    for path in (run_dir, tmp_dir, input_dir):
+        os.makedirs(str(path), exist_ok=True)
+    
+    catalog = intake.cat.access_nri
+    experiment = catalog["01deg_jra55v140_iaf_cycle4"]
+    chunks = {"time": 1, "xu_ocean": 100, "yu_ocean": 100, "xt_ocean": 100, "yt_ocean": 100}
+    buffer = 0.2 
+    ds_dict = experiment.search(
+        variable=["u", "salt"],
+        frequency='1mon',
+        #start_date=date_range[0]+", 00:00:00",
+        
+    ).to_dataset_dict(threaded=False,
+                      xarray_open_kwargs={"decode_timedelta": True,"chunks": chunks}
+                     )
+        
+    access_om2_input = xr.merge(ds_dict.values(), join="inner")
+    
+    access_om2_input = access_om2_input.sel(
+            yu_ocean = slice(latitude_extent[0] - buffer, latitude_extent[1] + buffer),
+           yt_ocean = slice(latitude_extent[0] - buffer, latitude_extent[1] + buffer))
+    
+    access_om2_input = access_om2_input.sel(time=slice(date_range[0], date_range[1]))
+
+    correctime=access_om2_input.time
+    
+    if setup_unprocessed:
+        ########  currently data needed to generate ic and boundary conditions isn't in the catalogue 
+        
+        
+    
+        ######### eventually  will use the code as above to pull boundary conditions and initial conditions from the NRI catalogue. 
+        buffer=0.6
+        wombatlitepath='/g/data/ol01/ee8016/regional_wombat/OM3_25km_jra_ryf+wombatlite/' #this is where the data for the run with boundary and ititial conditiosn is stored
+        
+        var3d=['alk','fe','no3','o2','phy', 'zoo', 'det', 'caco3', 'pchl', 'phyfe', 'zoofe', 'detfe', 'dic','dicp', 'dicr','so','thetao','uo','vo'] #these are all vars needed for wombat lite
+        
+        var2d=['SSH','det_sediment','caco3_sediment','detfe_sediment']  #these are all vars needed for wombat lite
+    
+        datasets3d = []
+        for var_name in var3d:
+            file_path = os.path.join(wombatlitepath,"output0*", f"access-om3.mom6.3d.{var_name}.1mon.mean.*.nc")
+            files = sorted(glob.glob(file_path))
+            ds = xr.open_mfdataset(files)   
+            datasets3d.append(ds)
+        access_om2_input3d = xr.merge(datasets3d)
+        
+        datasets2d = []
+        for var_name in var2d:
+            file_path = os.path.join(wombatlitepath,"output0*", f"access-om3.mom6.2d.{var_name}.1mon.mean.*.nc")
+            files = sorted(glob.glob(file_path))
+            ds = xr.open_mfdataset(files)   
+            datasets2d.append(ds)
+        access_om2_input2d = xr.merge(datasets2d)
+        
+        access_om2_input = xr.merge([access_om2_input3d, access_om2_input2d])
+        
+        
+        access_om2_input = access_om2_input.sel(
+                yh = slice(latitude_extent[0] - buffer, latitude_extent[1] + buffer),
+               yq = slice(latitude_extent[0] - buffer, latitude_extent[1] + buffer))
+        
+        #these vars weren't saved as outputs but are needed as inputs
+        access_om2_input["detbury"] = xr.zeros_like(access_om2_input["no3"])
+        access_om2_input["caco3bury"] = xr.zeros_like(access_om2_input["no3"])
+        
+        access_om2_input = access_om2_input.drop_vars(
+            ["average_T1", "average_T2", "average_DT", "time_bnds","nv"]
+        )
+
+
+
+
+        #this is all the same as for physical model 
+        
+        ic = access_om2_input.isel(time = 0)
+
+        ic = rmom6.longitude_slicer(ic,
+                                    [longitude_extent[0] - buffer, longitude_extent[1] + buffer],
+                                    ["xq", "xh"])
+        ic.drop_encoding().to_netcdf(tmp_dir + "/ic_unprocessed.nc")
+        
+        rmom6.longitude_slicer(access_om2_input,
+                               [longitude_extent[1] - buffer, longitude_extent[1] + buffer],
+                               ["xq", "xh"]).to_netcdf(tmp_dir + "/east_unprocessed.nc")
+        
+        rmom6.longitude_slicer(access_om2_input,
+                               [longitude_extent[0] - buffer, longitude_extent[0] + buffer],
+                               ["xq", "xh"]).to_netcdf(tmp_dir + "/west_unprocessed.nc")
+        
+        northsouth = rmom6.longitude_slicer(access_om2_input,
+                                            [longitude_extent[0] - buffer, longitude_extent[1] + buffer],
+                                            ["xq", "xh"])
+        
+        northsouth.sel(
+            yh = slice(latitude_extent[1] - buffer, latitude_extent[1] + buffer),
+            yq = slice(latitude_extent[1] - buffer, latitude_extent[1] + buffer)
+        ).to_netcdf(tmp_dir + "/north_unprocessed.nc")
+        
+        northsouth.sel(
+            yh = slice(latitude_extent[0] - buffer, latitude_extent[0] + buffer),
+            yq = slice(latitude_extent[0] - buffer, latitude_extent[0] + buffer)
+        ).to_netcdf(tmp_dir + "/south_unprocessed.nc")
+        
+
+    
+    del access_om2_input   
+
+    # here you can alter exp setup for the new regional domain, same as for physics
+    expt = rmom6.experiment(
+        longitude_extent = longitude_extent,
+        latitude_extent = latitude_extent,
+        date_range = [date_range[0]+" 00:00:00", date_range[1]+" 00:00:00"],
+        resolution = 0.05, 
+        number_vertical_layers = 100,
+        layer_thickness_ratio = 60,
+        depth = 5500,
+        mom_run_dir = run_dir,
+        mom_input_dir = input_dir,
+        fre_tools_dir = fre_tools_dir,
+        boundaries=["north", "south", "east", "west"],
+        minimum_depth=12
+    ) 
+
+    # generate bathymetry for new domain same as for physics
+    if setup_bathy:
+        expt.setup_bathymetry(
+        bathymetry_path='/g/data/ik11/inputs/GEBCO_2022/GEBCO_2022.nc',
+        longitude_coordinate_name='lon',
+        latitude_coordinate_name='lat',
+        vertical_coordinate_name='elevation',
+        )
+        print('bathy done')
+        
+        ds = xr.open_dataset(input_dir+'bathymetry.nc')
+        ds['depth'] = ds['depth'].fillna(0)
+        ds.to_netcdf(input_dir+'bathymetry_mod.nc')
+
+
+    # Here we need to add in all the BGC tracers 
+    ocean_varnames = {"time": "time",
+                  "yh": "yh",
+                  "xh": "xh",
+                  "xq": "xq",
+                  "yq": "yq",
+                  "zl": "zl",
+                  "eta": "SSH",
+                  "u": "uo",
+                  "v": "vo",
+
+                  "tracers": {"salt": "so", "temp": "thetao","no3":"no3","fe":"fe","o2":"o2","zoo":"zoo","phy":"phy","det":"det","caco3":"caco3","alk":"alk","caco3_sediment":"caco3_sediment","det_sediment":"det_sediment","pchl":"pchl", "phyfe":"phyfe", "zoofe":"zoofe", "detfe":"detfe", "dicp":"dicp", "dicr":"dicr","dic":"dic","detbury":"detbury","caco3bury":"caco3bury","detfe_sediment":"detfe_sediment"}
+                  }
+    # add tidal forcing for domain if wanted, the same as for physics 
+    if setup_tides:
+        tidal_dir = Path('/g/data/nm03/TPXO/') 
+        expt.setup_boundary_tides(
+            tpxo_elevation_filepath='/g/data/nm03/TPXO/h_tpxo9.v1.nc',
+            tpxo_velocity_filepath='/g/data/nm03/TPXO/u_tpxo9.v1.nc',
+            tidal_constituents = ["M2", "S2", "N2", "K2", "K1", "O1", "P1", "Q1", "MM", "MF"], 
+            )
+    
+    
+    tmp_dir="/g/data/nm03/ee8016/Ningaloo_wombatlite_sd_2year/"
+    # do the regridding, same as comsima notebook except changed to C grid.   
+    if setup_regridded:
+        # Set up the initial condition
+        expt.setup_initial_condition(
+            tmp_dir + "/ic_unprocessed.nc", # directory where the unprocessed initial condition is stored, as defined earlier
+            ocean_varnames,
+                arakawa_grid="C"
+            )
+
+        #this is not needed for physics only, but is needed for BGC
+        ds = xr.open_dataset(input_dir+'init_tracers.nc')
+        #remaning dimentions
+        ds = ds.rename({'nx': 'GRID_X_T','ny': 'GRID_Y_T', "zl": "ZT"})
+        #adding correct values
+        ds['GRID_X_T'] =ds.xh.values[0, 0:]#getting values for lat and lons
+        ds['GRID_Y_T'] =ds.yh.values[0:, 0]
+        #adding a time dimention 
+        ds = ds.expand_dims({"time":1})
+        ds = ds.assign_coords(time=("time", [0.0]))
+        
+       #changing fillvalue
+        encoding = {var_name: {"_FillValue": -1e20} for var_name in ds.data_vars}
+        
+        ds.to_netcdf(input_dir+'init_tracers_modified.nc',encoding=encoding) #this is the file that is read in in config file. 
+      
+        #Set up the four boundary conditions.
+        expt.setup_ocean_state_boundaries(
+           Path(tmp_dir),
+           ocean_varnames,
+           arakawa_grid = "C"
+           )
+
+
+        #this is completely different for BCG
+        #combining boundary files
+        ds1a = xr.open_dataset(input_dir+'forcing_obc_segment_001.nc')
+        ds2a = xr.open_dataset(input_dir+'forcing_obc_segment_002.nc')
+        ds3a = xr.open_dataset(input_dir+'forcing_obc_segment_003.nc')
+        ds4a = xr.open_dataset(input_dir+'forcing_obc_segment_004.nc')
+        
+        
+        #extending this for tidal version (I actually think I didnt need to do this and even with BGC turned on, having tidal forcing as 4 files for each boundary works fine)
+        ds1b = xr.open_dataset(input_dir+'tu_segment_001.nc')
+        ds2b = xr.open_dataset(input_dir+'tu_segment_002.nc')
+        ds3b = xr.open_dataset(input_dir+'tu_segment_003.nc')
+        ds4b = xr.open_dataset(input_dir+'tu_segment_004.nc')
+            
+        #extending this for tidal version 
+        ds1c = xr.open_dataset(input_dir+'tz_segment_001.nc')
+        ds2c = xr.open_dataset(input_dir+'tz_segment_002.nc')
+        ds3c = xr.open_dataset(input_dir+'tz_segment_003.nc')
+        ds4c = xr.open_dataset(input_dir+'tz_segment_004.nc')
+        
+        #renaming variables that will clash when merging
+        ds1a['ny_segmnet_001'] = ds1a['nyp']
+        ds1a = ds1a.drop_vars(['nyp'])
+        ds1a['nx_segmnet_001'] = ds1a['nxp']
+        ds1a = ds1a.drop_vars(['nxp'])
+        
+        ds2a['ny_segmnet_002'] = ds2a['nyp']
+        ds2a = ds2a.drop_vars(['nyp'])
+        ds2a['nx_segmnet_002'] = ds2a['nxp']
+        ds2a = ds2a.drop_vars(['nxp'])
+        
+        ds3a['ny_segmnet_003'] = ds3a['nyp']
+        ds3a = ds3a.drop_vars(['nyp'])
+        ds3a['nx_segmnet_003'] = ds3a['nxp']
+        ds3a = ds3a.drop_vars(['nxp'])
+        
+        ds4a['ny_segmnet_004'] = ds4a['nyp']
+        ds4a = ds4a.drop_vars(['nyp'])
+        ds4a['nx_segmnet_004'] = ds4a['nxp']
+        ds4a = ds4a.drop_vars(['nxp'])
+        
+        
+        # for some reason we dont need to do ds1
+        ds2b['ny_segmnet_002'] = ds2b['nyp']
+        ds2b = ds2b.drop_vars(['nyp'])
+        ds2b['nx_segmnet_002'] = ds2b['nxp']
+        ds2b = ds2b.drop_vars(['nxp'])
+        
+        ds3b['ny_segmnet_003'] = ds3b['nyp']
+        ds3b = ds3b.drop_vars(['nyp'])
+        ds3b['nx_segmnet_003'] = ds3b['nxp']
+        ds3b = ds3b.drop_vars(['nxp'])
+        
+        ds4b['ny_segmnet_004'] = ds4b['nyp']
+        ds4b = ds4b.drop_vars(['nyp'])
+        ds4b['nx_segmnet_004'] = ds4b['nxp']
+        ds4b = ds4b.drop_vars(['nxp'])
+        
+        
+        # for some reason we dont need to do ds1
+        ds2c['ny_segmnet_002'] = ds2c['nyp']
+        ds2c = ds2c.drop_vars(['nyp'])
+        ds2c['nx_segmnet_002'] = ds2c['nxp']
+        ds2c = ds2c.drop_vars(['nxp'])
+        
+        ds3c['ny_segmnet_003'] = ds3c['nyp']
+        ds3c = ds3c.drop_vars(['nyp'])
+        ds3c['nx_segmnet_003'] = ds3c['nxp']
+        ds3c = ds3c.drop_vars(['nxp'])
+        
+        ds4c['ny_segmnet_004'] = ds4c['nyp']
+        ds4c = ds4c.drop_vars(['nyp'])
+        ds4c['nx_segmnet_004'] = ds4c['nxp']
+        ds4c = ds4c.drop_vars(['nxp'])
+    
+           
+        ds = xr.merge([ds1a, ds2a, ds3a, ds4a])
+        ds = ds.assign_coords(time=correctime)
+        
+        dsbc = xr.merge([ds1b, ds2b, ds3b, ds4b,ds1c, ds2c, ds3c, ds4c])
+        
+        ds=xr.merge([ds,dsbc])
+        encoding = {var_name: {"_FillValue": np.float32(-1e20), "dtype": "float32"} 
+            for var_name in ds.data_vars}
+
+        
+        ds.to_netcdf(input_dir+'obgc_obc.nc', unlimited_dims='time',encoding=encoding) #this is the file that actaully gets read in in config
+            
+    # This don't get used in the model run 
+    expt.run_FRE_tools(layout = (10, 10)) ## Here the tuple defines the processor layout
+
+    #turn tides off here if not wanted
+    expt.setup_run_directory(surface_forcing = "jra", using_payu = True, with_tides=True)
+    
+    
+    
